@@ -1,0 +1,24 @@
+npm run start and npm run build
+  npx parcel index.html
+    creates development build, and host it on localhost
+  npx parcel build index.html
+    creates prod build
+
+  add these two under scripts to package.json
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+
+    now, these can be run using the following commands:
+      npm run start or npm start
+      npm run build
+
+refer comments in App.js
+
+Two types of React components
+  Class Based Components
+  Functional Components
+    React functional components are just normal JS functions that return JSX code,
+      named with a Capital Letter
+    
+
+  

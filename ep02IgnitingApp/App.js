@@ -12,7 +12,5 @@ const parent = React.createElement('div', { id: 'parent' }, [
   ]),
 ]);
 
-// To solve this nested hell, JSX exists.
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(parent);
