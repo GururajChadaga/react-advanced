@@ -1,11 +1,12 @@
 {
-  "name": "ep02ignitingapp",
+  "name": "ep03layingthefoundation",
   "version": "1.0.0",
   "description": "",
+  "main": "App.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
