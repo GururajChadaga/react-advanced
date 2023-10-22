@@ -1,0 +1,138 @@
+* {
+  margin: 0rem;
+  box-sizing: border-box;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 99vh;
+  padding: 0.25rem 0.25rem;
+}
+
+.header {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.625rem 2rem;
+  margin-bottom: 1rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo {
+  height: 2rem;
+  width: 2rem;
+}
+
+.nav-container {
+  font-size: 1.5rem;
+}
+
+.nav-container > ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem;
+}
+
+.nav-container > ul > li {
+  list-style-type: none;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+.nav-container > ul > li:last-child {
+  margin-right: 0rem;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid black;
+}
+.r-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: center;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.r-card-container {
+  border-radius: 2rem;
+  margin: 1rem;
+  width: 17rem;
+  max-height: 19rem;
+}
+.shimmer-card-container {
+  border-radius: 2rem;
+  margin: 1rem;
+  width: 17rem;
+  height: 17.25rem;
+  background-color: #f0f0f0;
+}
+
+.r-card-container:hover {
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+.r-card-logo {
+  height: 12rem;
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.r-card-details-container {
+  margin: 0.5rem 1rem 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.r-card-details-primary {
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+.r-card-details-secondary {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rating-container {
+  display: flex;
+}
+.rating-logo {
+  height: 1.25rem;
+  width: 1.25rem;
+  margin-left: 0.25rem;
+}
+
+.f-filter-container {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.r-filter-btn {
+  width: 5rem;
+  margin: 0rem 1rem;
+  cursor: pointer;
+}
+
+.login-logout-btn-container {
+  display: flex;
+  align-items: center;
+}
+.login-logout-btn {
+  width: 4rem;
+  cursor: pointer;
+  height: 100%;
+}
