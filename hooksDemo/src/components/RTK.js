@@ -9,8 +9,8 @@ const RTK = () => {
     dispatch(updateUserName(updatedUserName));
   };
   return (
-    <div>
-      <div>RTK</div>
+    <div className='demo-container'>
+      <div>RTK Demo</div>
       <div>UserName: {userName}</div>
       <input
         type='text'
