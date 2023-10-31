@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from 'react';
 
 const DemoRef = () => {
   const [text, setText] = useState('');
-  const [prevTextState, setPrevTextState] = useState('');
   const renderCountRef = useRef(1);
   const inputRef = useRef();
   const prevTextRef = useRef('');
