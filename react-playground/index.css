@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  border: 1px solid black;
+  margin-bottom: 2rem;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.nav-items > li {
+  list-style-type: none;
+  margin-left: 1rem;
+}
+
+.nav-items > li > a {
+  text-decoration: none;
+  color: black;
+}
