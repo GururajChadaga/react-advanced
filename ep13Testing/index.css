@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-item {
+  @apply list-none cursor-pointer mr-8;
+}
